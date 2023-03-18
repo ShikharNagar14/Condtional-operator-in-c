@@ -1,0 +1,19 @@
+// Write a C program to find maximum between two numbers using conditional operator(?).
+//#include<stdio.h>
+// int main(){
+//     int a,b;
+//     printf("Enter the number\n");
+//     scanf("%d%d",&a,&b);
+//     (a>b)? printf("a is greater than b"):printf("b is greater than a");
+
+// }
+// Write a C program to find maximum between three numbers using conditional operator(?).
+int main(){
+int num1,num2,num3,ans;
+printf("Enter the numbers\n");
+scanf("%d%d%d",&num1,&num2,&num3);
+ans=(num1>num2 && num2>num3)? num1:(num2>num3)?num2:num3;
+printf("%d",ans);
+
+
+}
